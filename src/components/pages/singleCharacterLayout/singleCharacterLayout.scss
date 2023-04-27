@@ -1,4 +1,4 @@
-@import '../../style/variables.scss';
+@import '../../../style/variables.scss';
 
 .single-comic {
     margin-top: 50px;
@@ -6,9 +6,10 @@
     grid-template-columns: 293px 550px auto;
     column-gap: 50px;
     align-items: start;
-    &__img {
+    &__thumbnail {
         width: 293px;
-        height: 450px;
+        height: 293px;
+        object-fit: contain;
     }
     &__name {
         font-weight: bold;
